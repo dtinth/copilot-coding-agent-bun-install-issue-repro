@@ -1,11 +1,12 @@
 {
   "name": "copilot-coding-agent-bun-install-issue-repro",
-  "module": "index.ts",
   "type": "module",
   "private": true,
   "devDependencies": {
-    "@types/bun": "latest"
   },
-  "peerDependencies": {
+  "dependencies": {
+    "@tsconfig/strictest": "^2.0.8",
+    "citty": "^0.1.6",
+    "confbox": "^0.2.2"
   }
 }
