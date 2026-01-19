@@ -1,0 +1,12 @@
+{
+  "name": "copilot-coding-agent-bun-install-issue-repro",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
