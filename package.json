@@ -2,11 +2,12 @@
   "name": "copilot-coding-agent-bun-install-issue-repro",
   "type": "module",
   "private": true,
-  "devDependencies": {},
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
   "dependencies": {
     "@tsconfig/strictest": "^2.0.8",
     "citty": "^0.1.6",
-    "confbox": "^0.2.2",
-    "typescript": "^5.9.3"
+    "confbox": "^0.2.2"
   }
 }
